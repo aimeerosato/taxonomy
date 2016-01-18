@@ -1,6 +1,6 @@
 var Bee = function() {
 
-  Grub.call(this, this.food);
+  Grub.call(this);
   //this = new Grub;
   //call the Grub Super Class
   //set the prototpye

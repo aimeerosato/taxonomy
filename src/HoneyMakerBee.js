@@ -1,7 +1,7 @@
 var HoneyMakerBee = function() {
   // Call Bee Super Class - inherits color and food 
   //automatically inherits food from grub, since Bee inheritied it from grub
-  Bee.call(this, this.color);
+  Bee.call(this);
 
   // Properties Specific to HoneyBees
   this.age = 10;
